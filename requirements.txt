@@ -1,0 +1,7 @@
+# Pinned to the environment actually used (~/workspace/venvs/crop-disease, Python 3.12).
+# pandas.read_sas reads the CDC XPT files; no pyreadstat needed.
+pandas==3.0.6
+numpy==2.5.2
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2

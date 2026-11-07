@@ -1,0 +1,448 @@
+{
+ "outcome": "periodontitis",
+ "target": "severe_periodontitis",
+ "splits": {
+  "fit": [
+   "2009-2010"
+  ],
+  "validation": [
+   "2011-2012"
+  ],
+  "test": [
+   "2013-2014"
+  ],
+  "n_fit": 3744,
+  "n_validation": 3335,
+  "n_test": 3621,
+  "prev_fit": 0.11698717948717949,
+  "prev_validation": 0.13223388305847075,
+  "prev_test": 0.08726871030102182
+ },
+ "models": {
+  "logistic_regression": {
+   "validation_fit_only": {
+    "n": 3335,
+    "n_positive": 441,
+    "prevalence": 0.13223388305847075,
+    "threshold": 0.5,
+    "auc": 0.749212147425199,
+    "accuracy": 0.447976011994003,
+    "sensitivity": 0.9138321995464853,
+    "specificity": 0.37698686938493436,
+    "ppv": 0.1826835902085222,
+    "npv": 0.9663418954827281,
+    "brier": 0.34900020749633276,
+    "ece_10bin": 0.410890896734882,
+    "tp": 403,
+    "fp": 1803,
+    "tn": 1091,
+    "fn": 38
+   },
+   "youden_threshold_from_validation": 0.6905551358531651,
+   "test_at_0.5": {
+    "n": 3621,
+    "n_positive": 316,
+    "prevalence": 0.08726871030102182,
+    "threshold": 0.5,
+    "auc": 0.7657911871158009,
+    "accuracy": 0.6785418392709196,
+    "sensitivity": 0.7278481012658228,
+    "specificity": 0.6738275340393344,
+    "ppv": 0.17584097859327216,
+    "npv": 0.9628188499783831,
+    "brier": 0.20619616046213052,
+    "ece_10bin": 0.32371651608433627,
+    "tp": 230,
+    "fp": 1078,
+    "tn": 2227,
+    "fn": 86
+   },
+   "test_at_youden": {
+    "n": 3621,
+    "n_positive": 316,
+    "prevalence": 0.08726871030102182,
+    "threshold": 0.6905551358531651,
+    "auc": 0.7657911871158009,
+    "accuracy": 0.8304335818834576,
+    "sensitivity": 0.439873417721519,
+    "specificity": 0.8677760968229955,
+    "ppv": 0.24131944444444445,
+    "npv": 0.941871921182266,
+    "brier": 0.20619616046213052,
+    "ece_10bin": 0.32371651608433627,
+    "tp": 139,
+    "fp": 437,
+    "tn": 2868,
+    "fn": 177
+   },
+   "coefficients": {
+    "num__age": 0.5421356024301209,
+    "cat__smoking_current": 0.27482242707618376,
+    "cat__sex_female": -0.2666179702116116,
+    "cat__sex_male": 0.26661797021161154,
+    "num__pir": -0.24281197535622426,
+    "num__hba1c": 0.22547955355398616,
+    "cat__race_eth_NH White": -0.22408136246692797,
+    "cat__education_College grad+": -0.22338207419151526,
+    "cat__smoking_never": -0.1706887363281463,
+    "cat__race_eth_Mexican American": 0.13113815527558406,
+    "cat__race_eth_NH Black": 0.13065215638622574,
+    "cat__education_9-11th grade": 0.12678853291919912,
+    "cat__race_eth_NH Asian": 0.11437596216288944,
+    "cat__education_<9th grade": 0.1076155674433264,
+    "num__crp_mg_l_missing": 0.10470885865633003,
+    "cat__race_eth_Other Hispanic": -0.08920981283725568,
+    "num__protein_g": 0.08793908458542761,
+    "cat__diabetes_borderline": -0.08328413291053699,
+    "num__chol_mg": -0.08177304936822584,
+    "cat__education_HS/GED": 0.07558045604538532,
+    "num__crp_mg_l": 0.07392528292808002,
+    "num__carb_g": -0.07315335831052396,
+    "num__pir_missing": 0.05517198664536071,
+    "cat__smoking_former": -0.053099396166257765,
+    "num__fiber_g": -0.05222718196592408,
+    "cat__diabetes_no": 0.05142674278129852,
+    "cat__race_eth_Other/Multiracial": 0.04944999471919233,
+    "num__bmi": -0.04326134812862771,
+    "num__sodium_mg": 0.037588643716591714,
+    "cat__education_Some college/AA": -0.024976332474200773,
+    "num__hba1c_missing": -0.020857749820964125,
+    "cat__diabetes_diabetes": -0.0166991591197364,
+    "num__kcal": 0.008071535232843211
+   }
+  },
+  "hist_gbm": {
+   "validation_fit_only": {
+    "n": 3335,
+    "n_positive": 441,
+    "prevalence": 0.13223388305847075,
+    "threshold": 0.5,
+    "auc": 0.7337685131643075,
+    "accuracy": 0.7937031484257872,
+    "sensitivity": 0.3786848072562358,
+    "specificity": 0.856945404284727,
+    "ppv": 0.2874354561101549,
+    "npv": 0.9005083514887436,
+    "brier": 0.14031954267183067,
+    "ece_10bin": 0.10901261590842748,
+    "tp": 167,
+    "fp": 414,
+    "tn": 2480,
+    "fn": 274
+   },
+   "youden_threshold_from_validation": 0.17337249520298648,
+   "test_at_0.5": {
+    "n": 3621,
+    "n_positive": 316,
+    "prevalence": 0.08726871030102182,
+    "threshold": 0.5,
+    "auc": 0.7393994523066317,
+    "accuracy": 0.812206572769953,
+    "sensitivity": 0.45569620253164556,
+    "specificity": 0.8462934947049925,
+    "ppv": 0.22085889570552147,
+    "npv": 0.9420680363758841,
+    "brier": 0.12785854407606667,
+    "ece_10bin": 0.15794153341751327,
+    "tp": 144,
+    "fp": 508,
+    "tn": 2797,
+    "fn": 172
+   },
+   "test_at_youden": {
+    "n": 3621,
+    "n_positive": 316,
+    "prevalence": 0.08726871030102182,
+    "threshold": 0.17337249520298648,
+    "auc": 0.7393994523066317,
+    "accuracy": 0.5705606186136426,
+    "sensitivity": 0.7848101265822784,
+    "specificity": 0.5500756429652043,
+    "ppv": 0.14293948126801154,
+    "npv": 0.9639448568398727,
+    "brier": 0.12785854407606667,
+    "ece_10bin": 0.15794153341751327,
+    "tp": 248,
+    "fp": 1487,
+    "tn": 1818,
+    "fn": 68
+   },
+   "permutation_importance_auc": {
+    "age": 0.08400563013462543,
+    "sex": 0.04846109653574375,
+    "smoking": 0.025687584978647603,
+    "pir": 0.020576993048507353,
+    "race_eth": 0.01884543939945238,
+    "education": 0.01615446484995888,
+    "hba1c": 0.004362588329918293,
+    "fiber_g": 0.0026367797161953588,
+    "protein_g": 0.0017834504682203932,
+    "carb_g": 0.0011287079415538636,
+    "kcal": 0.0004172810662786297,
+    "hba1c_missing": 0.00027901721595593456,
+    "pir_missing": 8.157950171392426e-05,
+    "crp_mg_l": 0.0,
+    "crp_mg_l_missing": 0.0,
+    "diabetes": -0.00042398360749913434,
+    "sodium_mg": -0.000773664758038195,
+    "bmi": -0.002046573086424397,
+    "chol_mg": -0.0030465922365422006
+   }
+  }
+ },
+ "fairness_test": {
+  "race_eth": {
+   "Mexican American": {
+    "n": 491,
+    "n_positive": 60,
+    "prevalence": 0.12219959266802444,
+    "logistic_regression": {
+     "auc": 0.7721191028615622,
+     "sensitivity": 0.8833333333333333,
+     "specificity": 0.48259860788863107,
+     "accuracy": 0.5315682281059063,
+     "ece_10bin": 0.39885635954882837
+    },
+    "hist_gbm": {
+     "auc": 0.7436968290796598,
+     "sensitivity": 0.7,
+     "specificity": 0.728538283062645,
+     "accuracy": 0.725050916496945,
+     "ece_10bin": 0.23419211619947894
+    }
+   },
+   "NH Asian": {
+    "n": 447,
+    "n_positive": 28,
+    "prevalence": 0.06263982102908278,
+    "logistic_regression": {
+     "auc": 0.6996249573815206,
+     "sensitivity": 0.7142857142857143,
+     "specificity": 0.6634844868735084,
+     "accuracy": 0.6666666666666666,
+     "ece_10bin": 0.347401598000925
+    },
+    "hist_gbm": {
+     "auc": 0.6981759290828503,
+     "sensitivity": 0.39285714285714285,
+     "specificity": 0.8329355608591885,
+     "accuracy": 0.8053691275167785,
+     "ece_10bin": 0.1723975953638413
+    }
+   },
+   "NH Black": {
+    "n": 706,
+    "n_positive": 105,
+    "prevalence": 0.14872521246458922,
+    "logistic_regression": {
+     "auc": 0.701449964345139,
+     "sensitivity": 0.7904761904761904,
+     "specificity": 0.5008319467554077,
+     "accuracy": 0.5439093484419264,
+     "ece_10bin": 0.364233606348216
+    },
+    "hist_gbm": {
+     "auc": 0.6850487283099596,
+     "sensitivity": 0.5047619047619047,
+     "specificity": 0.7437603993344426,
+     "accuracy": 0.7082152974504249,
+     "ece_10bin": 0.18512561625649246
+    }
+   },
+   "NH White": {
+    "n": 1564,
+    "n_positive": 92,
+    "prevalence": 0.058823529411764705,
+    "logistic_regression": {
+     "auc": 0.763062677221172,
+     "sensitivity": 0.5652173913043478,
+     "specificity": 0.7921195652173914,
+     "accuracy": 0.7787723785166241,
+     "ece_10bin": 0.2762832898080089
+    },
+    "hist_gbm": {
+     "auc": 0.7174577622873346,
+     "sensitivity": 0.2717391304347826,
+     "specificity": 0.923233695652174,
+     "accuracy": 0.8849104859335039,
+     "ece_10bin": 0.11931878551690027
+    }
+   },
+   "Other Hispanic": {
+    "n": 322,
+    "n_positive": 26,
+    "prevalence": 0.08074534161490683,
+    "logistic_regression": {
+     "auc": 0.8304313929313929,
+     "sensitivity": 0.7307692307692307,
+     "specificity": 0.7533783783783784,
+     "accuracy": 0.7515527950310559,
+     "ece_10bin": 0.30271389080200817
+    },
+    "hist_gbm": {
+     "auc": 0.7709199584199584,
+     "sensitivity": 0.38461538461538464,
+     "specificity": 0.8682432432432432,
+     "accuracy": 0.8291925465838509,
+     "ece_10bin": 0.1510630716436227
+    }
+   },
+   "Other/Multiracial": {
+    "n": 91,
+    "n_positive": 5,
+    "prevalence": 0.054945054945054944,
+    "logistic_regression": {
+     "auc": 0.7069767441860465,
+     "sensitivity": 0.6,
+     "specificity": 0.5930232558139535,
+     "accuracy": 0.5934065934065934,
+     "ece_10bin": 0.37715004084264026
+    },
+    "hist_gbm": {
+     "auc": 0.8,
+     "sensitivity": 0.6,
+     "specificity": 0.8255813953488372,
+     "accuracy": 0.8131868131868132,
+     "ece_10bin": 0.2038069114004743
+    }
+   }
+  },
+  "pir_band": {
+   "<1": {
+    "n": 614,
+    "n_positive": 87,
+    "prevalence": 0.14169381107491857,
+    "logistic_regression": {
+     "auc": 0.6849440554864884,
+     "sensitivity": 0.7931034482758621,
+     "specificity": 0.4990512333965844,
+     "accuracy": 0.5407166123778502,
+     "ece_10bin": 0.36470553492001234
+    },
+    "hist_gbm": {
+     "auc": 0.6710942441492725,
+     "sensitivity": 0.4827586206896552,
+     "specificity": 0.7476280834914611,
+     "accuracy": 0.7100977198697068,
+     "ece_10bin": 0.19078703970958227
+    }
+   },
+   "1-<2": {
+    "n": 813,
+    "n_positive": 81,
+    "prevalence": 0.0996309963099631,
+    "logistic_regression": {
+     "auc": 0.7091007218511772,
+     "sensitivity": 0.7283950617283951,
+     "specificity": 0.5532786885245902,
+     "accuracy": 0.5707257072570726,
+     "ece_10bin": 0.37835077765525355
+    },
+    "hist_gbm": {
+     "auc": 0.691476084463334,
+     "sensitivity": 0.5185185185185185,
+     "specificity": 0.7923497267759563,
+     "accuracy": 0.7650676506765067,
+     "ece_10bin": 0.20364548165698768
+    }
+   },
+   "2-<4": {
+    "n": 904,
+    "n_positive": 75,
+    "prevalence": 0.08296460176991151,
+    "logistic_regression": {
+     "auc": 0.7715158825894652,
+     "sensitivity": 0.72,
+     "specificity": 0.7020506634499397,
+     "accuracy": 0.7035398230088495,
+     "ece_10bin": 0.316981885418138
+    },
+    "hist_gbm": {
+     "auc": 0.7563007639726578,
+     "sensitivity": 0.44,
+     "specificity": 0.8636911942098915,
+     "accuracy": 0.8285398230088495,
+     "ece_10bin": 0.15594151348107563
+    }
+   },
+   ">=4": {
+    "n": 986,
+    "n_positive": 34,
+    "prevalence": 0.034482758620689655,
+    "logistic_regression": {
+     "auc": 0.7902249134948096,
+     "sensitivity": 0.4411764705882353,
+     "specificity": 0.8728991596638656,
+     "accuracy": 0.8580121703853956,
+     "ece_10bin": 0.24671655384288024
+    },
+    "hist_gbm": {
+     "auc": 0.7520390509144834,
+     "sensitivity": 0.14705882352941177,
+     "specificity": 0.9537815126050421,
+     "accuracy": 0.9259634888438134,
+     "ece_10bin": 0.10021390953993281
+    }
+   }
+  },
+  "smoking": {
+   "current": {
+    "n": 666,
+    "n_positive": 116,
+    "prevalence": 0.17417417417417416,
+    "logistic_regression": {
+     "auc": 0.7189655172413794,
+     "sensitivity": 0.8879310344827587,
+     "specificity": 0.3654545454545455,
+     "accuracy": 0.45645645645645644,
+     "ece_10bin": 0.39868681319394195
+    },
+    "hist_gbm": {
+     "auc": 0.6907210031347961,
+     "sensitivity": 0.5689655172413793,
+     "specificity": 0.6836363636363636,
+     "accuracy": 0.6636636636636637,
+     "ece_10bin": 0.20121256334800627
+    }
+   },
+   "former": {
+    "n": 906,
+    "n_positive": 78,
+    "prevalence": 0.08609271523178808,
+    "logistic_regression": {
+     "auc": 0.7076675337544902,
+     "sensitivity": 0.717948717948718,
+     "specificity": 0.572463768115942,
+     "accuracy": 0.5849889624724062,
+     "ece_10bin": 0.37301067446962494
+    },
+    "hist_gbm": {
+     "auc": 0.6823052149139106,
+     "sensitivity": 0.46153846153846156,
+     "specificity": 0.8103864734299517,
+     "accuracy": 0.7803532008830022,
+     "ece_10bin": 0.19445039423077995
+    }
+   },
+   "never": {
+    "n": 2047,
+    "n_positive": 122,
+    "prevalence": 0.05959941377625794,
+    "logistic_regression": {
+     "auc": 0.7652884820097935,
+     "sensitivity": 0.5819672131147541,
+     "specificity": 0.8057142857142857,
+     "accuracy": 0.7923790913531998,
+     "ece_10bin": 0.27718806987960853
+    },
+    "hist_gbm": {
+     "auc": 0.7468043431977858,
+     "sensitivity": 0.3442622950819672,
+     "specificity": 0.9085714285714286,
+     "accuracy": 0.8749389350268686,
+     "ece_10bin": 0.12828928505184675
+    }
+   }
+  }
+ }
+}

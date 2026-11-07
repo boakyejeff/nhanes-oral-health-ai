@@ -1,0 +1,536 @@
+[
+ {
+  "cycle": "1999-2000",
+  "file": "DEMO",
+  "status": "downloaded",
+  "bytes": 11500560
+ },
+ {
+  "cycle": "1999-2000",
+  "file": "OHXDENT",
+  "status": "downloaded",
+  "bytes": 9364320
+ },
+ {
+  "cycle": "1999-2000",
+  "file": "DIQ",
+  "status": "downloaded",
+  "bytes": 1294240
+ },
+ {
+  "cycle": "1999-2000",
+  "file": "SMQ",
+  "status": "downloaded",
+  "bytes": 1733760
+ },
+ {
+  "cycle": "1999-2000",
+  "file": "DRXTOT",
+  "status": "downloaded",
+  "bytes": 9895440
+ },
+ {
+  "cycle": "1999-2000",
+  "file": "BMX",
+  "status": "downloaded",
+  "bytes": 2827840
+ },
+ {
+  "cycle": "1999-2000",
+  "file": "LAB10",
+  "status": "downloaded",
+  "bytes": 109200
+ },
+ {
+  "cycle": "1999-2000",
+  "file": "LAB11",
+  "status": "downloaded",
+  "bytes": 469040
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "DEMO_B",
+  "status": "downloaded",
+  "bytes": 3273520
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "OHXDEN_B",
+  "status": "downloaded",
+  "bytes": 10464240
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "DIQ_B",
+  "status": "downloaded",
+  "bytes": 1427040
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "SMQ_B",
+  "status": "downloaded",
+  "bytes": 2073680
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "DRXTOT_B",
+  "status": "downloaded",
+  "bytes": 11922560
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "BMX_B",
+  "status": "downloaded",
+  "bytes": 2183680
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "L10_B",
+  "status": "downloaded",
+  "bytes": 120160
+ },
+ {
+  "cycle": "2001-2002",
+  "file": "L11_B",
+  "status": "downloaded",
+  "bytes": 446240
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "DEMO_C",
+  "status": "downloaded",
+  "bytes": 3569840
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "OHXDEN_C",
+  "status": "downloaded",
+  "bytes": 9647200
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "DIQ_C",
+  "status": "downloaded",
+  "bytes": 1314880
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "SMQ_C",
+  "status": "downloaded",
+  "bytes": 1932320
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "DR1TOT_C",
+  "status": "downloaded",
+  "bytes": 12366160
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "BMX_C",
+  "status": "downloaded",
+  "bytes": 2551120
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "L10_C",
+  "status": "downloaded",
+  "bytes": 112880
+ },
+ {
+  "cycle": "2003-2004",
+  "file": "L11_C",
+  "status": "downloaded",
+  "bytes": 295040
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "DEMO_D",
+  "status": "downloaded",
+  "bytes": 3566560
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "OHX_D",
+  "status": "downloaded",
+  "bytes": 3929040
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "DIQ_D",
+  "status": "downloaded",
+  "bytes": 2834560
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "SMQ_D",
+  "status": "downloaded",
+  "bytes": 2578880
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "DR1TOT_D",
+  "status": "downloaded",
+  "bytes": 12759120
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "BMX_D",
+  "status": "downloaded",
+  "bytes": 2153760
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "GHB_D",
+  "status": "downloaded",
+  "bytes": 112720
+ },
+ {
+  "cycle": "2005-2006",
+  "file": "CRP_D",
+  "status": "downloaded",
+  "bytes": 152080
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "DEMO_E",
+  "status": "downloaded",
+  "bytes": 3498080
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "OHX_E",
+  "status": "downloaded",
+  "bytes": 3931840
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "DIQ_E",
+  "status": "downloaded",
+  "bytes": 2789600
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "SMQ_E",
+  "status": "downloaded",
+  "bytes": 2449520
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "DR1TOT_E",
+  "status": "downloaded",
+  "bytes": 12831440
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "BMX_E",
+  "status": "downloaded",
+  "bytes": 1800240
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "GHB_E",
+  "status": "downloaded",
+  "bytes": 111760
+ },
+ {
+  "cycle": "2007-2008",
+  "file": "CRP_E",
+  "status": "downloaded",
+  "bytes": 140480
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "DEMO_F",
+  "status": "downloaded",
+  "bytes": 3631600
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "OHXDEN_F",
+  "status": "downloaded",
+  "bytes": 2561280
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "OHXPER_F",
+  "status": "downloaded",
+  "bytes": 20542240
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "DIQ_F",
+  "status": "downloaded",
+  "bytes": 1620960
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "SMQ_F",
+  "status": "downloaded",
+  "bytes": 2580560
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "DR1TOT_F",
+  "status": "downloaded",
+  "bytes": 13640000
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "BMX_F",
+  "status": "downloaded",
+  "bytes": 1890560
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "GHB_F",
+  "status": "downloaded",
+  "bytes": 118960
+ },
+ {
+  "cycle": "2009-2010",
+  "file": "CRP_F",
+  "status": "downloaded",
+  "bytes": 148480
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "DEMO_G",
+  "status": "downloaded",
+  "bytes": 3753760
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "OHXDEN_G",
+  "status": "downloaded",
+  "bytes": 6966080
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "OHXPER_G",
+  "status": "downloaded",
+  "bytes": 17811200
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "DIQ_G",
+  "status": "downloaded",
+  "bytes": 3978560
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "SMQ_G",
+  "status": "downloaded",
+  "bytes": 1946960
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "DR1TOT_G",
+  "status": "downloaded",
+  "bytes": 12424880
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "BMX_G",
+  "status": "downloaded",
+  "bytes": 1946720
+ },
+ {
+  "cycle": "2011-2012",
+  "file": "GHB_G",
+  "status": "downloaded",
+  "bytes": 105840
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "DEMO_H",
+  "status": "downloaded",
+  "bytes": 3833200
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "OHXDEN_H",
+  "status": "downloaded",
+  "bytes": 7327680
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "OHXPER_H",
+  "status": "downloaded",
+  "bytes": 19046720
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "DIQ_H",
+  "status": "downloaded",
+  "bytes": 4228960
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "SMQ_H",
+  "status": "downloaded",
+  "bytes": 2170000
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "DR1TOT_H",
+  "status": "downloaded",
+  "bytes": 13212960
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "BMX_H",
+  "status": "downloaded",
+  "bytes": 2045520
+ },
+ {
+  "cycle": "2013-2014",
+  "file": "GHB_H",
+  "status": "downloaded",
+  "bytes": 112720
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "DEMO_I",
+  "status": "downloaded",
+  "bytes": 3756480
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "OHXDEN_I",
+  "status": "downloaded",
+  "bytes": 10252720
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "DIQ_I",
+  "status": "downloaded",
+  "bytes": 4144720
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "SMQ_I",
+  "status": "downloaded",
+  "bytes": 2681040
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "DR1TOT_I",
+  "status": "downloaded",
+  "bytes": 12851440
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "BMX_I",
+  "status": "downloaded",
+  "bytes": 1989600
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "GHB_I",
+  "status": "downloaded",
+  "bytes": 108960
+ },
+ {
+  "cycle": "2015-2016",
+  "file": "HSCRP_I",
+  "status": "downloaded",
+  "bytes": 221200
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "DEMO_J",
+  "status": "downloaded",
+  "bytes": 3412720
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "OHXDEN_J",
+  "status": "downloaded",
+  "bytes": 9361040
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "DIQ_J",
+  "status": "downloaded",
+  "bytes": 3851840
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "SMQ_J",
+  "status": "downloaded",
+  "bytes": 2305600
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "DR1TOT_J",
+  "status": "downloaded",
+  "bytes": 11722480
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "BMX_J",
+  "status": "downloaded",
+  "bytes": 1466000
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "GHB_J",
+  "status": "downloaded",
+  "bytes": 103520
+ },
+ {
+  "cycle": "2017-2018",
+  "file": "HSCRP_J",
+  "status": "downloaded",
+  "bytes": 202000
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_DEMO",
+  "status": "downloaded",
+  "bytes": 3614720
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_OHXDEN",
+  "status": "downloaded",
+  "bytes": 15394160
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_DIQ",
+  "status": "downloaded",
+  "bytes": 3361520
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_SMQ",
+  "status": "downloaded",
+  "bytes": 1428560
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_DR1TOT",
+  "status": "downloaded",
+  "bytes": 19243440
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_BMX",
+  "status": "downloaded",
+  "bytes": 2520640
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_GHB",
+  "status": "downloaded",
+  "bytes": 167600
+ },
+ {
+  "cycle": "2017-Mar2020",
+  "file": "P_HSCRP",
+  "status": "downloaded",
+  "bytes": 331760
+ }
+]

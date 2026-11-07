@@ -1,0 +1,5 @@
+toothloss | logistic_regression: test AUC=0.854 sens=0.818 spec=0.733 ECE=0.149 (n=11227, prev=0.276)
+toothloss | hist_gbm: test AUC=0.861 sens=0.840 spec=0.722 ECE=0.148 (n=11227, prev=0.276)
+periodontitis | logistic_regression: test AUC=0.766 sens=0.728 spec=0.674 ECE=0.324 (n=3621, prev=0.087)
+periodontitis | hist_gbm: test AUC=0.739 sens=0.456 spec=0.846 ECE=0.158 (n=3621, prev=0.087)
+done.
